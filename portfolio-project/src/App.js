@@ -4,6 +4,20 @@ import React from 'react'
 function App() {
   return (
     <main className='page-layout'>
+      {/* <Sky
+          images={{
+            0: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Football_%28soccer_ball%29.svg/1200px-Football_%28soccer_ball%29.svg.png', 
+            1: 'https://lh3.googleusercontent.com/proxy/D7pBHFG2wpBDSrmrpFwfDCfh04Kk01m8Epcb4kNDAi4uYMYQ6BmbtMvgMAGcWmjKxwnh13iNNLcDHWc7YaxvvV5zxettoxWK9F149Xh5MBFapT6rewIRXTzI9g7I06EJ-lzM3riA85k',
+            2: 'https://www.freepngimg.com/download/golf_ball/1-2-golf-ball-transparent.png', 
+            3: 'https://lh3.googleusercontent.com/proxy/nisZCNXX80LlXdEVzs0MZr_L_5j0DlAhgi8Bev9RFqG7rmlzAuYY6LdKVry46naUPu0mbL2OpCFJZf765xPpztm2MkmrSsPzhQW_YbfjiXatVYa7iN0JqXLeQNqjk8fgWdAf',
+            4: 'https://freepngimg.com/thumb/tennis_ball/4-2-tennis-ball-free-download-png.png',
+            5: 'https://www.jing.fm/clipimg/full/165-1659542_formula-one-clipart-formula-1-race-car-transparent.png',
+          }}
+          how={100}
+          time={10} 
+          size={'50px'} 
+          background={'palettedvioletred'} 
+        /> */}
       <div className='contact-icon'>
         <div className='icon-link'>
           <i className="devicon-linkedin-plain"></i>
@@ -20,20 +34,6 @@ function App() {
       </div>
       <div className='title'>
         <h1>Hugo Kinahan</h1>
-        {/* <Sky
-          images={{
-            0: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Football_%28soccer_ball%29.svg/1200px-Football_%28soccer_ball%29.svg.png', 
-            1: 'https://lh3.googleusercontent.com/proxy/D7pBHFG2wpBDSrmrpFwfDCfh04Kk01m8Epcb4kNDAi4uYMYQ6BmbtMvgMAGcWmjKxwnh13iNNLcDHWc7YaxvvV5zxettoxWK9F149Xh5MBFapT6rewIRXTzI9g7I06EJ-lzM3riA85k',
-            2: 'https://www.freepngimg.com/download/golf_ball/1-2-golf-ball-transparent.png', 
-            3: 'https://lh3.googleusercontent.com/proxy/nisZCNXX80LlXdEVzs0MZr_L_5j0DlAhgi8Bev9RFqG7rmlzAuYY6LdKVry46naUPu0mbL2OpCFJZf765xPpztm2MkmrSsPzhQW_YbfjiXatVYa7iN0JqXLeQNqjk8fgWdAf',
-            4: 'https://freepngimg.com/thumb/tennis_ball/4-2-tennis-ball-free-download-png.png',
-            5: 'https://www.jing.fm/clipimg/full/165-1659542_formula-one-clipart-formula-1-race-car-transparent.png',
-          }}
-          how={100}
-          time={10} 
-          size={'50px'} 
-          background={'palettedvioletred'} 
-        /> */}
       </div>
       <h2>About Me</h2>
       <div className='bio'>
