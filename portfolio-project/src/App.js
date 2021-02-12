@@ -1,23 +1,26 @@
 import React from 'react'
 // import Sky from 'react-sky'
+// import { Icon } from 'semantic-ui-react'
+import { GrMail } from 'react-icons/gr'
+
+import project1 from '../src/images/finished.png'
+import project2 from '../src/images/large-home.png'
+import project3 from '../src/images/homepage.png'
+import project4 from '../src/images/sharebnb-homepage.png'
+
 
 function App() {
   return (
     <main className='page-layout'>
       {/* <Sky
-          images={{
-            0: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Football_%28soccer_ball%29.svg/1200px-Football_%28soccer_ball%29.svg.png', 
-            1: 'https://lh3.googleusercontent.com/proxy/D7pBHFG2wpBDSrmrpFwfDCfh04Kk01m8Epcb4kNDAi4uYMYQ6BmbtMvgMAGcWmjKxwnh13iNNLcDHWc7YaxvvV5zxettoxWK9F149Xh5MBFapT6rewIRXTzI9g7I06EJ-lzM3riA85k',
-            2: 'https://www.freepngimg.com/download/golf_ball/1-2-golf-ball-transparent.png', 
-            3: 'https://lh3.googleusercontent.com/proxy/nisZCNXX80LlXdEVzs0MZr_L_5j0DlAhgi8Bev9RFqG7rmlzAuYY6LdKVry46naUPu0mbL2OpCFJZf765xPpztm2MkmrSsPzhQW_YbfjiXatVYa7iN0JqXLeQNqjk8fgWdAf',
-            4: 'https://freepngimg.com/thumb/tennis_ball/4-2-tennis-ball-free-download-png.png',
-            5: 'https://www.jing.fm/clipimg/full/165-1659542_formula-one-clipart-formula-1-race-car-transparent.png',
-          }}
-          how={100}
-          time={10} 
-          size={'50px'} 
-          background={'palettedvioletred'} 
-        /> */}
+        images={{
+          0: 'https://media-exp1.licdn.com/dms/image/C4D03AQEmgtdJa6jOOQ/profile-displayphoto-shrink_200_200/0/1587581731827?e=1618444800&v=beta&t=tyic_pnk0K5p1n8LHXvket-8Un2rIXFdXxsciZ9Vnvs',
+        }}
+        how={1}
+        time={30} 
+        size={'150px'} 
+        background={'palettedvioletred'} 
+      /> */}
       <div className='contact-icon'>
         <div className='icon-link'>
           <i className="devicon-linkedin-plain"></i>
@@ -31,10 +34,22 @@ function App() {
           <i className="devicon-github-original"></i>
           <p>github.com/hugokinahan</p>
         </div>
+        <div className='icon-link'>
+          <i className="index-icon"><GrMail /></i>
+          <p>hugokinahan@hotmail.com</p>
+        </div>
       </div>
       <div className='title'>
         <h1>Hugo Kinahan</h1>
       </div>
+      {/* <section className="header-image">
+        <h1>
+          <div className="extra-gap">Hugo</div>
+          <div>
+            <span>Kinahan</span>
+          </div>
+        </h1>
+      </section> */}
       <h2>About Me</h2>
       <div className='bio'>
         <img className='profile-pic' src='https://media-exp1.licdn.com/dms/image/C4D03AQEmgtdJa6jOOQ/profile-displayphoto-shrink_200_200/0/1587581731827?e=1618444800&v=beta&t=tyic_pnk0K5p1n8LHXvket-8Un2rIXFdXxsciZ9Vnvs'/>
@@ -137,6 +152,80 @@ function App() {
         <div className='icon-layout'>
           <i className="devicon-yarn-plain"></i>
           <p>Yarn</p>
+        </div>
+      </div>
+      <div className='my-work-section'>
+        <h2>My Work</h2>
+        <h3>General Assembly</h3>
+        <img src='https://www.drupal.org/files/general-assembly_logo.png' />
+        <div className='projects'>
+          <div className='project-border'>
+            <h4>#4 Sharebnb</h4>
+            <img src={project4} />
+            <div className='icon-layout'>
+              <i className="devicon-html5-plain plain"></i>
+              <i className="devicon-css3-plain"></i>
+              <i className="devicon-javascript-plain plain"></i>
+              <i className="devicon-react-original plain"></i>
+              <i className="devicon-python-plain"></i>
+              <i className="devicon-django-plain"></i>
+              <i className="devicon-postgresql-plain"></i>
+              <i className="devicon-github-original"></i>
+              <i className="devicon-git-plain"></i>
+              <i className="devicon-sass-original"></i>
+              <i className="devicon-trello-plain"></i>
+              <i className="devicon-heroku-original"></i>
+            </div>
+            <p>Sharebnb. A full stack application made with a Python Django REST Framework backend and a React frontend. Pair project. Time-frame: 1 week.</p>
+          </div>
+          <div className='project-border'>
+            <h4>#3 2020 Reimagined</h4>
+            <img src={project3} />
+            <div className='icon-layout'>
+              <i className="devicon-html5-plain plain"></i>
+              <i className="devicon-css3-plain"></i>
+              <i className="devicon-javascript-plain plain"></i>
+              <i className="devicon-react-original plain"></i>
+              <i className="devicon-mongodb-plain"></i>
+              <i className="devicon-nodejs-plain"></i>
+              <i className="devicon-express-original"></i>
+              <i className="devicon-github-original"></i>
+              <i className="devicon-git-plain"></i>
+              <i className="devicon-sass-original"></i>
+              <i className="devicon-trello-plain"></i>
+              <i className="devicon-heroku-original"></i>
+            </div>
+            <p>2020 Reimagined. A group project building a MERN fullstack application. Time-frame: 9 days.</p>
+          </div>
+          <div className='project-border'>
+            <h4>#2 Superhero Showdown</h4>
+            <img src={project2} />
+            <div className='icon-layout'>
+              <i className="devicon-html5-plain plain"></i>
+              <i className="devicon-css3-plain"></i>
+              <i className="devicon-javascript-plain plain"></i>
+              <i className="devicon-react-original plain"></i>
+              <i className="devicon-babel-plain"></i>
+              <i className="devicon-github-original"></i>
+              <i className="devicon-git-plain"></i>
+              <i className="devicon-sass-original"></i>
+              <i className="devicon-trello-plain"></i>
+              <i className="devicon-heroku-original"></i>
+            </div>
+            <p>Superhero Showdown. A pair project where we built a React.js App using a 3rd Party Superhero API based on the game &apos;Top Trumps&apos;. Time-frame: 48 hours.</p>
+          </div>
+          <div className='project-border'>
+            <h4>#1 The Wizard Of Oz</h4>
+            <img src={project1} />
+            <div className='icon-layout'>
+              <i className="devicon-html5-plain plain"></i>
+              <i className="devicon-css3-plain"></i>
+              <i className="devicon-javascript-plain plain"></i>
+              <i className="devicon-github-original"></i>
+              <i className="devicon-git-plain"></i>
+            </div>
+            <p>Follow The Yellow Brick Road. A grid-based game using HTML, CSS and JavaScript based on the classic arcade game &apos;Frogger&apos;. Time-frame: 1 week.</p>
+          </div>
         </div>
       </div>
     </main>

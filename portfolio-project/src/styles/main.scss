@@ -12,7 +12,7 @@ html {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 300vh;
 }
 
 .contact-icon {
@@ -77,6 +77,51 @@ html {
   }
 }
 
+.my-work-section {
+  display: flex;
+  flex-direction: column;
+  img {
+    margin: 10px auto;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1500px;
+  max-width: 100%;
+}
+
+.project-border {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid bisque;
+  width: 500px;
+  margin: 5px 10px;
+  img {
+    margin: 10px auto;
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+  }
+  p {
+    margin: 10px;
+    text-align: center;
+  }
+  .icon-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    i {
+      font-size: 30px;
+    }
+  }
+}
+
 body {
   font-family: 'avenir';
 }
@@ -99,3 +144,61 @@ i {
   font-size: 50px;
   margin: 4px;
 }
+
+// .header-image {
+//   h1 {
+//     margin: 20px auto;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     font-size: 65px;
+//   }
+//   div {
+//     display:inline-block;
+//     overflow:hidden;
+//     white-space:nowrap;
+//   }
+  
+//   div:first-of-type {  
+//     animation: showup ;
+//     margin-bottom: 4px;
+//     font-weight: bold;
+//     position: fixed;
+//   }
+  
+//   .extra-gap {
+//     margin-right: 10px;
+//     margin-top: 5px;
+//   }
+  
+//   div:last-of-type {
+//     width:0px;
+//     animation: reveal 7s infinite;
+//   }
+  
+  
+//   @keyframes showup {
+//       0% {opacity:0;}
+//       20% {opacity:1;}
+//       80% {opacity:1;}
+//       100% {opacity:0;}
+//   }
+  
+//   @keyframes slidein {
+//       0% { margin-left:-800px; }
+//       20% { margin-left:-800px; }
+//       35% { margin-left:0px; }
+//       100% { margin-left:0px; }
+//   }
+  
+//   @keyframes reveal {
+//       0% {opacity:0;width:0px;}
+//       20% {opacity:1;width:0px;}
+//       30% {width:355px;}
+//       80% {opacity:1;}
+//       100% {opacity:0;width:355px;}
+//   }
+  
+  
+//   }
