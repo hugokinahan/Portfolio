@@ -23,11 +23,6 @@ html {
     display: flex;
     padding: 5px;
   }
-  // .icon-link:hover {
-  //   background-color: bisque;
-  //   color: #001a30;
-  //   border-radius: 12px;
-  // }
   i {
     margin-top: 10px;
     font-size: 20px;
@@ -57,24 +52,57 @@ html {
 }
 
 .title {
-  margin: 10px auto;
+  width: 500px;
+  margin: 100px auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  h1 {
-    font-size: 200px;
+  text-align: center;
+}
+
+.title-name {
+  // margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.2;
+  font-size: 200px;
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
+
 
 .bio {
   display: flex;
   flex-direction: row;
   margin: 10px 90px;
   .bio-text {
+    font-size: 18px;
     width: 70%;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  img {
+    width: 200px;
+    height: auto;
   }
 }
 
@@ -130,10 +158,10 @@ html {
     height: auto;
   }
   .project-image {
-    margin: 0rem 0px -235px 25px;
+    margin: 0px 0px -235px 23px;
     width: 80%;
     height: 200px;
-    border-radius: 10px;
+    // border-radius: 10px;
   }
   p {
     margin: 10px;
@@ -208,7 +236,7 @@ html {
   align-items: center;
   .footer-icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     a {
       margin: 10px;
     }
@@ -216,9 +244,10 @@ html {
   .footer-links {
     display: flex;
     flex-direction: column;
-    p {
-      margin: 23px 0px;
-    }
+  }
+  .social-icons {
+    display: flex;
+    flex-direction: column;
   }
 }
 
