@@ -9,7 +9,10 @@ function Title() {
     <div className='title'>
       {/* <h1 className='typewriter'>Hugo Kinahan</h1> */}
       <ReactRotatingText className='title-name' items={['HUGO KINAHAN']} pause={100000} cursor={false} typingInterval={100}/>
-      <i className="chevron-icon"><BsChevronCompactDown /></i>
+      <div className='sub-heading'>
+        <h5>· junior software engineer ·</h5>
+        <i className="chevron-icon"><BsChevronCompactDown /></i>
+      </div>
     </div>
   )
 }

@@ -4,17 +4,24 @@
 @import '_languages.scss';
 @import '_my_work.scss';
 @import '_contact.scss';
+@import '_media_queries.scss';
 
 
 * {
   box-sizing: border-box;
 }
 
+main {
+  display: block;
+}
+
 html {
   background-color: #001a30;
   color: bisque;
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
+
 
 // FLEXBOX
 .page-layout {

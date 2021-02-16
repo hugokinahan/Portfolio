@@ -6,7 +6,7 @@ function Contact() {
 
   return (
     <div>
-      <h1 id='contact'>Get In Touch</h1>
+      <h1 className='get-in-touch' id='contact'>Get In Touch</h1>
       <div className='footer'>
         <div className='footer-icons'>
           <div className='social-icons'>

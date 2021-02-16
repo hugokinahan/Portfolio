@@ -6,7 +6,7 @@ function About() {
 
   return (
     <div>
-      <h1 id='about-me'>About Me</h1>
+      <h1 id='about-me' className='about'>About Me</h1>
       <div className='bio'>
         <img className='profile-pic' src={profileImage}/>
         <div className='bio-text'>
