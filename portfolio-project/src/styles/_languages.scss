@@ -1,0 +1,19 @@
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  .icon-layout {
+    text-align: center;
+    margin: 4px 6px;
+    margin-top: 40px;
+  }
+  .icon-layout:hover {
+    background-color: bisque;
+    color: #001a30;
+    padding: 0px 4px;
+    border-radius: 20px;
+  }
+}

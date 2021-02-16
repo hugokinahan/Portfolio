@@ -1,0 +1,98 @@
+.my-work-section {
+  display: flex;
+  flex-direction: column;
+  img {
+    margin: 10px auto;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1500px;
+  max-width: 100%;
+}
+
+.project-border {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid bisque;
+  width: 500px;
+  margin: 5px 10px;
+  a {
+  margin-left: 50px;
+  }
+  img {
+    width: 90%;
+    height: auto;
+  }
+  .project-image {
+    margin: 0px 0px -235px 23px;
+    width: 80%;
+    height: 200px;
+    // border-radius: 10px;
+  }
+  p {
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .icon-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    i {
+      font-size: 30px;
+    }
+  }
+  .project-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    .link-button {
+      width: 140px;
+      // margin-left: -20px;
+      background-color: #001a30;
+      color: bisque;
+      border: 1px solid bisque;
+      border-radius: 10px;
+    }
+    .link-button:hover {
+      background-color: bisque;
+      color: #001a30;
+    }
+    i {
+      color: bisque;
+      font-size: 12px;
+      font-family: 'avenir';
+      text-decoration: none;
+      font-style: none;
+      margin: 0 auto;
+    }
+    i:hover {
+      color: #001a30;
+    }
+    p {
+      color: bisque;
+      font-size: 12px;
+      font-family: 'avenir';
+      text-decoration: none;
+      font-style: italic;
+      margin: 0 auto;
+    }
+    p:hover {
+      color: #001a30;
+    }
+    svg {
+      color: bisque;
+      background-color: bisque;
+      border-radius: 90px;
+      padding: 2px;
+    }
+  }
+}
