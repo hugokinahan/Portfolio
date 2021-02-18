@@ -1,6 +1,12 @@
 .contact-icon {
   display: flex;
   flex-direction: row;
+  position: fixed;
+  top: 0;
+  padding: 4px;
+  width: 100%;
+  z-index: 2;
+  background-color: #001a30;
   .icon-link {
     display: flex;
     padding: 5px;
