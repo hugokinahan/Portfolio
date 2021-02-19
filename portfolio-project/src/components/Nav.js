@@ -21,7 +21,7 @@ function Nav() {
         </a>
       </div>
       <div className='icon-link'>
-        <a href='hugokinahan@hotmail.com' >
+        <a href='mailto:hugokinahan@hotmail.com' >
           <i className="index-icon"><GrMail /></i>
         </a>
       </div>

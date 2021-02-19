@@ -37,7 +37,7 @@ function Contact() {
             <a href='https://github.com/hugokinahan' >
               <p>github.com/hugokinahan</p>
             </a>
-            <a href='hugokinahan@hotmail.com' >
+            <a href='mailto:hugokinahan@hotmail.com' >
               <p>hugokinahan@hotmail.com</p>
             </a>
           </div>
