@@ -17,6 +17,7 @@
 }
 
 .project-border {
+  transition: 0.5s ease;
   display: flex;
   flex-direction: column;
   border: 1px solid bisque;
