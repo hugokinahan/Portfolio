@@ -43,6 +43,9 @@ function Contact() {
           </div>
         </div>
       </div>
+      <footer>
+        <p>Hugo Kinahan &copy; 2021</p>
+      </footer>
     </div>
   )
 }
