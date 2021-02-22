@@ -13,7 +13,7 @@ function MyWork() {
 
   return (
     <div id='my-work' className='my-work-section'>
-      <h1>My Work</h1>
+      <h1 className='my-work-header'>My Work</h1>
       <h3>General Assembly</h3>
       <img src='https://www.drupal.org/files/general-assembly_logo.png' />
       <div className='projects'>
@@ -46,6 +46,8 @@ function MyWork() {
             <i className="devicon-heroku-original"></i>
           </div>
           <p>Sharebnb. A full stack application made with a Python Django REST Framework backend and a React frontend. Pair project. Time-frame: 1 week.</p>
+          <p>Our concept was a house swapping website. As a pair, we tackled the backend together to ensure we were in a strong position to begin our frontend.</p>
+          <p>Moving onto the frontend, I worked on the homepage and show page using modals from react.js–popup to help get the most out of our website.</p>
         </div>
         <div className='project-border'>
           <h4>#3 2020 Reimagined</h4>
@@ -75,7 +77,9 @@ function MyWork() {
             <i className="devicon-trello-plain"></i>
             <i className="devicon-heroku-original"></i>
           </div>
-          <p>2020 Reimagined. A group project building a MERN fullstack application. Time-frame: 9 days.</p>
+          <p>2020 Reimagined. A group project building a MERN fullstack application after one week of tuition in Node.js and Express. Time-frame: 9 days.</p>
+          <p>Our concept was to recreate the cancelled events of 2020 as if life in 2020 was normal. I took on the challenge of developing the backend after we built our own RESTful API, including complex tasks such as error handling and user authentication.</p>
+          <p>After the completion of the backend, I moved onto the frontend and in particular focused on the implementation of MapBox in our application and animations for our homepage.</p>
         </div>
         <div className='project-border'>
           <h4>#2 Superhero Showdown</h4>
@@ -104,6 +108,7 @@ function MyWork() {
             <i className="devicon-heroku-original"></i>
           </div>
           <p>Superhero Showdown. A pair project where we built a React.js App using a 3rd Party Superhero API based on the game &apos;Top Trumps&apos;. Time-frame: 48 hours.</p>
+          <p>We used detailed logic in React to determine the outcome after the user chose one attribute to compare against the Computer’s hidden equivalent attribute. I took the lead on styling the game akin to Superhero themes.</p>
         </div>
         <div className='project-border'>
           <h4>#1 The Wizard Of Oz</h4>
@@ -127,6 +132,7 @@ function MyWork() {
             <i className="devicon-git-plain"></i>
           </div>
           <p>Follow The Yellow Brick Road. A grid-based game using HTML, CSS and JavaScript based on the classic arcade game &apos;Frogger&apos;. Time-frame: 1 week.</p>
+          <p>This was my first proper project of my coding career after just three weeks of learning HTML, CSS and JavaScript.</p>
         </div>
       </div>
     </div>

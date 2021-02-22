@@ -5,6 +5,7 @@ import About from './components/About'
 import Languages from './components/Languages'
 import MyWork from './components/MyWork'
 import Contact from './components/Contact'
+import Experience from './components/Experience'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Languages />
       <MyWork />
+      <Experience />
       <Contact />
     </main>
   )

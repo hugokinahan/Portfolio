@@ -35,6 +35,9 @@ function Nav() {
         <a href='#my-work'>
           <p>my work.</p>
         </a>
+        <a href='#experience'>
+          <p>experience.</p>
+        </a>
         <a href='#contact'>
           <p>contact.</p>
         </a>
