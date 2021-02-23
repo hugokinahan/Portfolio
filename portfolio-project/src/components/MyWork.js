@@ -15,7 +15,7 @@ function MyWork() {
     <div id='my-work' className='my-work-section'>
       <h1 className='my-work-header'>My Work</h1>
       <h3>General Assembly</h3>
-      <img src='https://www.drupal.org/files/general-assembly_logo.png' />
+      <img className='ga-logo' src='https://www.drupal.org/files/general-assembly_logo.png' />
       <div className='projects'>
         <div className='project-border'>
           <h4>#4 Sharebnb</h4>

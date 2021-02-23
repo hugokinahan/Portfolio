@@ -14,6 +14,7 @@ function Title() {
   return (
     <div className='title'>
       <Sky
+        className='sky-float'
         images={{
           /* FORMAT AS FOLLOWS */
           0: ReactIcon, 
