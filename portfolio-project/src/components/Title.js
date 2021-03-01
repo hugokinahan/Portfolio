@@ -30,6 +30,7 @@ function Title() {
       {/* <h1 className='typewriter'>Hugo Kinahan</h1> */}
       <ReactRotatingText className='title-name' items={['HUGO KINAHAN']} pause={100000} cursor={false} typingInterval={100}/>
       <div className='sub-heading'>
+        <h1 className='phone-title'>HUGO KINAHAN</h1>
         <h5>· junior software engineer ·</h5>
         <i className="chevron-icon"><BsChevronCompactDown /></i>
       </div>
