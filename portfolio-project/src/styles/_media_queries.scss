@@ -37,7 +37,7 @@
 
 }
 
-@media only screen and (max-width: 750px) and (min-width: 300px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
   /* For mobile phones: */
 
   * {
@@ -74,11 +74,12 @@
 
   .title {
     
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: -70px;
+    // margin-left: -70px;
     position: relative;
     .sub-heading {
       font-size: 11px;
@@ -90,7 +91,7 @@
 
 
   .title-name {
-    display: none;
+    // display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
