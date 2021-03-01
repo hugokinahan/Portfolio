@@ -91,7 +91,7 @@
 
 
   .title-name {
-    // display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -100,9 +100,13 @@
   }
 
   .phone-title {
-    display: none;
+    // display: none;
     font-size: 40px;
     color: bisque;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-left: -70px;
   }
 
   .bio {

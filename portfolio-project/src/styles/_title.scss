@@ -11,7 +11,7 @@
 
 .title-name {
   // margin: 10px auto;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -20,8 +20,9 @@
 }
 
 .phone-title {
-  display: none;
-  color: #001a30;
+  // display: none;
+  color: bisque;
+  font-size: 120px;
 }
 
 .react-rotating-text-cursor {
