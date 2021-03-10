@@ -1,7 +1,7 @@
 
 
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+/* @media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) { */
 /* 
     .safari_only { 
 
@@ -9,7 +9,7 @@
         background-color:#CCCCCC; 
 
     } */
-
+/* 
     .title-name {
       margin-top: 1000px;
       display: flex;
@@ -55,7 +55,7 @@
       width: 200px;
       height: 100px;
     } */
-
+/* 
     img {
       width: 600px;
     }
@@ -74,8 +74,8 @@
 
     .exp-header {
       margin-top: 1800px;
-    }
-
+    } */
+/* 
     .experience-section {
       width: 70%;
       display: flex;
@@ -85,6 +85,6 @@
       margin: 0 auto;
       margin-top: 30px;
     }
-    
+     */
 
-}}
+/* }} */ 
