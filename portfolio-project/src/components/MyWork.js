@@ -8,12 +8,50 @@ import project2 from '../images/large-home.png'
 import project3 from '../images/homepage.png'
 import project4 from '../images/sharebnb-homepage.png'
 import mac from '../images/mac.png'
+import lacruche from '../images/lacruche.png'
+import lclogo from '../images/logo.jpg'
 
 function MyWork() {
 
   return (
     <div id='my-work' className='my-work-section'>
       <h1 className='my-work-header'>My Work</h1>
+      <h3>Independent Work</h3>
+      <img className='ga-logo' src={lclogo} />
+      <div className='projects'>
+        <div className='project-border'>
+          <h4>#1 La Cruche</h4>
+          <a href='http://www.lacruchegolf.com/' >
+            <img className='project-image' src={lacruche} />
+            <img src={mac} />
+          </a>
+          <div className='project-buttons' >
+            <a href='https://github.com/hugokinahan/la-cruche' >
+              <Button className='link-button'><p><i className="devicon-github-original" /> Link To GitHub</p></Button>
+            </a>
+            <a href='http://www.lacruchegolf.com/' >
+              <Button className='link-button'><p><i ><GrLink /> Link To Website</i></p></Button>
+            </a>
+          </div>
+          <div className='icon-layout'>
+            <i className="devicon-html5-plain plain"></i>
+            <i className="devicon-css3-plain"></i>
+            <i className="devicon-javascript-plain plain"></i>
+            <i className="devicon-react-original plain"></i>
+            <i className="devicon-mongodb-plain"></i>
+            <i className="devicon-nodejs-plain"></i>
+            <i className="devicon-express-original"></i>
+            <i className="devicon-github-original"></i>
+            <i className="devicon-git-plain"></i>
+            <i className="devicon-sass-original"></i>
+            <i className="devicon-trello-plain"></i>
+            <i className="devicon-heroku-original"></i>
+          </div>
+          <p>La Cruche, or &apos;The Jug&apos;, is a golf tour I started with friends during the pandemic.</p>
+          <p>Planned to be played annually, I decided to take things a step further and build a website using the MERN stack, so we could document our tours over the coming years.</p>
+          <p>This was my first solo project since finishing the SEI Course at General Assembly. I was very proud with how it turned out and I&apos;m happy to say it is also mobile optimised. Deployed through Heroku and hosted on GoDaddy.</p>
+        </div>
+      </div>
       <h3>General Assembly</h3>
       <img className='ga-logo' src='https://www.drupal.org/files/general-assembly_logo.png' />
       <div className='projects'>
